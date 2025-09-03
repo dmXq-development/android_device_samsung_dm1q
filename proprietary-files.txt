@@ -229,6 +229,36 @@ vendor/lib64/libtriplecam_optical_zoom_control.so
 vendor/lib64/libtriplecam_video_optical_zoom.so
 vendor/lib64/libvdis.uniplugin@1.0.so
 
+# Camera firmware
+vendor/firmware/CAMERA_ICP.b00
+vendor/firmware/CAMERA_ICP.b01
+vendor/firmware/CAMERA_ICP.b02
+vendor/firmware/CAMERA_ICP.b03
+vendor/firmware/CAMERA_ICP.b04
+vendor/firmware/CAMERA_ICP.b05
+vendor/firmware/CAMERA_ICP.b06
+vendor/firmware/CAMERA_ICP.b07
+vendor/firmware/CAMERA_ICP.b08
+vendor/firmware/CAMERA_ICP.b09
+vendor/firmware/CAMERA_ICP.b10
+vendor/firmware/CAMERA_ICP.b11
+vendor/firmware/CAMERA_ICP.b12
+vendor/firmware/CAMERA_ICP.b13
+vendor/firmware/CAMERA_ICP.b14
+vendor/firmware/CAMERA_ICP.b15
+vendor/firmware/CAMERA_ICP.b16
+vendor/firmware/CAMERA_ICP.b17
+vendor/firmware/CAMERA_ICP.b18
+vendor/firmware/CAMERA_ICP.b19
+vendor/firmware/CAMERA_ICP.b20
+vendor/firmware/CAMERA_ICP.elf
+vendor/firmware/CAMERA_ICP.mbn
+vendor/firmware/CAMERA_ICP.mdt
+vendor/firmware/CAMERA_ICP_170.elf
+vendor/firmware/CAMERA_ICP.b20:odm/firmware/CAMERA_ICP.b20|a391d23c2b5418029a4a3ce60062ef6286832fc4
+vendor/firmware/CAMERA_ICP.mbn:odm/firmware/CAMERA_ICP.mbn|06a19bbe30982cd3e3d3274b309ac66bf5ca2596
+vendor/firmware/CAMERA_ICP.mdt:odm/firmware/CAMERA_ICP.mdt|2af732fb51b255efa2b22c7010972dc9eb7d3d78
+
 # Display calibration data
 vendor/etc/display/qdcm_calib_data_DM1_LX83118_CM002.json
 vendor/etc/display/qdcm_calib_data_DM1_S6E3FAC_AMB606AW01.json
@@ -294,18 +324,12 @@ vendor/firmware/tsp_stm/fts2ba61y_dm1q.bin
 vendor/firmware/tsp_stm/fts2ba61y_dm1q_boe.bin
 
 # Vendor firmware - from S911BXXS8DYF2
-vendor/firmware/CAMERA_ICP.b20:odm/firmware/CAMERA_ICP.b20|a391d23c2b5418029a4a3ce60062ef6286832fc4
-vendor/firmware/CAMERA_ICP.mbn:odm/firmware/CAMERA_ICP.mbn|06a19bbe30982cd3e3d3274b309ac66bf5ca2596
-vendor/firmware/CAMERA_ICP.mdt:odm/firmware/CAMERA_ICP.mdt|2af732fb51b255efa2b22c7010972dc9eb7d3d78
 vendor/firmware/a740_zap.b02:odm/firmware/a740_zap.b02|feef6d22d9975edc6e24a72ac81ac1ffef07eb07
 vendor/firmware/a740_zap.mbn:odm/firmware/a740_zap.mbn|b8a16863835cf8067ad0f093a5829e305dee4d32
 vendor/firmware/a740_zap.mdt:odm/firmware/a740_zap.mdt|f2705be90a1463265f3450b7239449a2c6e16f73
 vendor/firmware/vpu30_4v.mbn:odm/firmware/vpu30_4v.mbn|54ea86f8a5da11ca6de05a4cae0f3d060ed162d1
 
 # Vendor firmware
-vendor/firmware/CAMERA_ICP.b20
-vendor/firmware/CAMERA_ICP.mbn
-vendor/firmware/CAMERA_ICP.mdt
 vendor/firmware/DM1_LX83118_CM002.dat
 vendor/firmware/DM1_S6E3FAC_AMB606AW01.dat
 vendor/firmware/a740_zap.b02
