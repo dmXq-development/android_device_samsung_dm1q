@@ -327,7 +327,6 @@ vendor/firmware/tsp_stm/fts2ba61y_dm1q_boe.bin
 vendor/firmware/a740_zap.b02:odm/firmware/a740_zap.b02|feef6d22d9975edc6e24a72ac81ac1ffef07eb07
 vendor/firmware/a740_zap.mbn:odm/firmware/a740_zap.mbn|b8a16863835cf8067ad0f093a5829e305dee4d32
 vendor/firmware/a740_zap.mdt:odm/firmware/a740_zap.mdt|f2705be90a1463265f3450b7239449a2c6e16f73
-vendor/firmware/vpu30_4v.mbn:odm/firmware/vpu30_4v.mbn|54ea86f8a5da11ca6de05a4cae0f3d060ed162d1
 
 # Vendor firmware
 vendor/firmware/DM1_LX83118_CM002.dat
@@ -351,7 +350,17 @@ vendor/firmware/hpnv21g.bin
 vendor/firmware/mfc/mfc_fw_flash.bin
 vendor/firmware/mfc/mfc_fw_flash_cps4038.bin
 vendor/firmware/ois_mcu_stm32g_fw.bin
+
+# VPU firmware
+vendor/firmware/vpu20_4v.mbn
+vendor/firmware/vpu20_4v_unsigned.mbn
 vendor/firmware/vpu30_4v.mbn
+vendor/firmware/vpu30_4v_16mb.mbn
+vendor/firmware/vpu30_4v_16mb_unsigned.mbn
+vendor/firmware/vpu30_4v_unsigned.mbn
+vendor/firmware/vpu33_4v.mbn
+vendor/firmware/vpu33_4v_unsigned.mbn
+vendor/firmware/vpu30_4v.mbn:odm/firmware/vpu30_4v.mbn|54ea86f8a5da11ca6de05a4cae0f3d060ed162d1
 
 # Wifi firmware
 vendor/firmware/Data.msc
