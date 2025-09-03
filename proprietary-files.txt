@@ -290,6 +290,19 @@ vendor/firmware/evass.b19:odm/firmware/evass.b19|511d925be1c336d07f130f1d89e753e
 vendor/firmware/evass.mbn:odm/firmware/evass.mbn|45f2de9166f77f9917249a1cfdec8c4f22d9fa7e
 vendor/firmware/evass.mdt:odm/firmware/evass.mdt|dfee724159d613b6d0465f446b8bd0c52ba7a30b
 
+# Graphics (Adreno firmware)
+vendor/firmware/a740_sqe.fw
+vendor/firmware/a740_zap.b00
+vendor/firmware/a740_zap.b01
+vendor/firmware/a740_zap.elf
+vendor/firmware/a740_zap.b02
+vendor/firmware/a740_zap.mbn
+vendor/firmware/a740_zap.mdt
+vendor/firmware/gmu_gen70200.bin
+vendor/firmware/a740_zap.b02:odm/firmware/a740_zap.b02|feef6d22d9975edc6e24a72ac81ac1ffef07eb07
+vendor/firmware/a740_zap.mbn:odm/firmware/a740_zap.mbn|b8a16863835cf8067ad0f093a5829e305dee4d32
+vendor/firmware/a740_zap.mdt:odm/firmware/a740_zap.mdt|f2705be90a1463265f3450b7239449a2c6e16f73
+
 # NFC
 vendor/etc/nfc/libnfc-nxp_RF.conf
 
@@ -323,17 +336,9 @@ vendor/bin/hw/vendor.samsung.hardware.thermal@1.0-service
 vendor/firmware/tsp_stm/fts2ba61y_dm1q.bin
 vendor/firmware/tsp_stm/fts2ba61y_dm1q_boe.bin
 
-# Vendor firmware - from S911BXXS8DYF2
-vendor/firmware/a740_zap.b02:odm/firmware/a740_zap.b02|feef6d22d9975edc6e24a72ac81ac1ffef07eb07
-vendor/firmware/a740_zap.mbn:odm/firmware/a740_zap.mbn|b8a16863835cf8067ad0f093a5829e305dee4d32
-vendor/firmware/a740_zap.mdt:odm/firmware/a740_zap.mdt|f2705be90a1463265f3450b7239449a2c6e16f73
-
 # Vendor firmware
 vendor/firmware/DM1_LX83118_CM002.dat
 vendor/firmware/DM1_S6E3FAC_AMB606AW01.dat
-vendor/firmware/a740_zap.b02
-vendor/firmware/a740_zap.mbn
-vendor/firmware/a740_zap.mdt
 vendor/firmware/hpbtfw21.tlv
 vendor/firmware/hpnv21.b9a
 vendor/firmware/hpnv21.b9b
