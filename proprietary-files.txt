@@ -1,5 +1,6 @@
 # All unpinned blobs are extracted from S911BXXS8DYG5
-# All pinned blobs are extracted from S911BXXS8DYF2
+# Common pinned blobs are extracted from S911BXXS8DYF2
+# Blobs for SM-S9110 are extracted from S9110ZHS6DYG5
 
 # ACDB
 vendor/etc/audconf/OPEN/acdb_cal.acdb
@@ -268,9 +269,9 @@ vendor/firmware/CAMERA_ICP.elf
 vendor/firmware/CAMERA_ICP.mbn
 vendor/firmware/CAMERA_ICP.mdt
 vendor/firmware/CAMERA_ICP_170.elf
-vendor/firmware/CAMERA_ICP.b20:odm/firmware/CAMERA_ICP.b20|a391d23c2b5418029a4a3ce60062ef6286832fc4
-vendor/firmware/CAMERA_ICP.mbn:odm/firmware/CAMERA_ICP.mbn|06a19bbe30982cd3e3d3274b309ac66bf5ca2596
-vendor/firmware/CAMERA_ICP.mdt:odm/firmware/CAMERA_ICP.mdt|2af732fb51b255efa2b22c7010972dc9eb7d3d78
+vendor/firmware/CAMERA_ICP.b20:odm/firmware/CAMERA_ICP.b20|d09f0b72cb46ad18f6e7be4804dc8c19928f1aa5
+vendor/firmware/CAMERA_ICP.mbn:odm/firmware/CAMERA_ICP.mbn|97e4b37865972cd7bed3d4c58bcb39410a11cebe
+vendor/firmware/CAMERA_ICP.mdt:odm/firmware/CAMERA_ICP.mdt|97b96dad396e963603899515327af8e12d5ff680
 
 # Display calibration data
 vendor/etc/display/qdcm_calib_data_DM1_LX83118_CM002.json
@@ -299,9 +300,9 @@ vendor/firmware/evass.b18
 vendor/firmware/evass.b19
 vendor/firmware/evass.mbn
 vendor/firmware/evass.mdt
-vendor/firmware/evass.b19:odm/firmware/evass.b19|511d925be1c336d07f130f1d89e753e9aee11371
-vendor/firmware/evass.mbn:odm/firmware/evass.mbn|45f2de9166f77f9917249a1cfdec8c4f22d9fa7e
-vendor/firmware/evass.mdt:odm/firmware/evass.mdt|dfee724159d613b6d0465f446b8bd0c52ba7a30b
+vendor/firmware/evass.b19:odm/firmware/evass.b19|02cdcbf55f011b75a3e98cdb143c400d301eae84
+vendor/firmware/evass.mbn:odm/firmware/evass.mbn|2cebfa793a843e6bfef48bad0cc46a4d63e54141
+vendor/firmware/evass.mdt:odm/firmware/evass.mdt|57dfe9111b16f90a70fd48a8c5d16e09dec0137d
 
 # Graphics (Adreno firmware)
 vendor/firmware/a740_sqe.fw
@@ -312,9 +313,9 @@ vendor/firmware/a740_zap.b02
 vendor/firmware/a740_zap.mbn
 vendor/firmware/a740_zap.mdt
 vendor/firmware/gmu_gen70200.bin
-vendor/firmware/a740_zap.b02:odm/firmware/a740_zap.b02|feef6d22d9975edc6e24a72ac81ac1ffef07eb07
-vendor/firmware/a740_zap.mbn:odm/firmware/a740_zap.mbn|b8a16863835cf8067ad0f093a5829e305dee4d32
-vendor/firmware/a740_zap.mdt:odm/firmware/a740_zap.mdt|f2705be90a1463265f3450b7239449a2c6e16f73
+vendor/firmware/a740_zap.b02:odm/firmware/a740_zap.b02|cbb723f5b9c39c315dfe292134c59db5c7db05c5
+vendor/firmware/a740_zap.mbn:odm/firmware/a740_zap.mbn|d093fc67ffd7f8fdd4eed30d5900c408f6607415
+vendor/firmware/a740_zap.mdt:odm/firmware/a740_zap.mdt|d3dd54d675ca2b31545e281c4c258e7885dc7954
 
 # NFC
 vendor/etc/nfc/libnfc-nxp_RF.conf
@@ -378,7 +379,7 @@ vendor/firmware/vpu30_4v_16mb_unsigned.mbn
 vendor/firmware/vpu30_4v_unsigned.mbn
 vendor/firmware/vpu33_4v.mbn
 vendor/firmware/vpu33_4v_unsigned.mbn
-vendor/firmware/vpu30_4v.mbn:odm/firmware/vpu30_4v.mbn|54ea86f8a5da11ca6de05a4cae0f3d060ed162d1
+vendor/firmware/vpu30_4v.mbn:odm/firmware/vpu30_4v.mbn|5f2edb21e3cbbe4a51273f5006c6838d717808c4
 
 # Wifi firmware
 vendor/firmware/Data.msc
