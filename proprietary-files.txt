@@ -1,16 +1,15 @@
-# All unpinned blobs are extracted from S911BXXS8DYG5
-# Common pinned blobs are extracted from S911BXXS8DYF2
-# Blobs for SM-S9110 are extracted from S9110ZHS6DYG5
+# All pinned blobs are extracted from S9110ZHS6DYG5
+# All unpinned blobs are extracted from S911BXXS8DYI4
 
 # ACDB
 vendor/etc/audconf/OPEN/acdb_cal.acdb
 vendor/etc/audconf/OPEN/workspaceFileXml.qwsp
 
 # Audio
-vendor/lib64/lib_lvacfs.so
-vendor/lib64/librecordalive.so
-vendor/lib64/libar-pal.so
 vendor/lib64/hw/audio.primary.kalama.so
+vendor/lib64/lib_lvacfs.so
+vendor/lib64/libar-pal.so
+vendor/lib64/librecordalive.so
 
 # Audio configs
 vendor/etc/audio/sku_kalama/mixer_paths.xml
@@ -265,13 +264,13 @@ vendor/firmware/CAMERA_ICP.b17
 vendor/firmware/CAMERA_ICP.b18
 vendor/firmware/CAMERA_ICP.b19
 vendor/firmware/CAMERA_ICP.b20
+vendor/firmware/CAMERA_ICP.b20:odm/firmware/CAMERA_ICP.b20|d09f0b72cb46ad18f6e7be4804dc8c19928f1aa5
 vendor/firmware/CAMERA_ICP.elf
 vendor/firmware/CAMERA_ICP.mbn
-vendor/firmware/CAMERA_ICP.mdt
-vendor/firmware/CAMERA_ICP_170.elf
-vendor/firmware/CAMERA_ICP.b20:odm/firmware/CAMERA_ICP.b20|d09f0b72cb46ad18f6e7be4804dc8c19928f1aa5
 vendor/firmware/CAMERA_ICP.mbn:odm/firmware/CAMERA_ICP.mbn|97e4b37865972cd7bed3d4c58bcb39410a11cebe
+vendor/firmware/CAMERA_ICP.mdt
 vendor/firmware/CAMERA_ICP.mdt:odm/firmware/CAMERA_ICP.mdt|97b96dad396e963603899515327af8e12d5ff680
+vendor/firmware/CAMERA_ICP_170.elf
 
 # Display calibration data
 vendor/etc/display/qdcm_calib_data_DM1_LX83118_CM002.json
@@ -298,33 +297,31 @@ vendor/firmware/evass.b16
 vendor/firmware/evass.b17
 vendor/firmware/evass.b18
 vendor/firmware/evass.b19
-vendor/firmware/evass.mbn
-vendor/firmware/evass.mdt
 vendor/firmware/evass.b19:odm/firmware/evass.b19|02cdcbf55f011b75a3e98cdb143c400d301eae84
+vendor/firmware/evass.mbn
 vendor/firmware/evass.mbn:odm/firmware/evass.mbn|2cebfa793a843e6bfef48bad0cc46a4d63e54141
+vendor/firmware/evass.mdt
 vendor/firmware/evass.mdt:odm/firmware/evass.mdt|57dfe9111b16f90a70fd48a8c5d16e09dec0137d
 
 # Graphics (Adreno firmware)
 vendor/firmware/a740_sqe.fw
 vendor/firmware/a740_zap.b00
 vendor/firmware/a740_zap.b01
-vendor/firmware/a740_zap.elf
 vendor/firmware/a740_zap.b02
-vendor/firmware/a740_zap.mbn
-vendor/firmware/a740_zap.mdt
-vendor/firmware/gmu_gen70200.bin
 vendor/firmware/a740_zap.b02:odm/firmware/a740_zap.b02|cbb723f5b9c39c315dfe292134c59db5c7db05c5
+vendor/firmware/a740_zap.elf
+vendor/firmware/a740_zap.mbn
 vendor/firmware/a740_zap.mbn:odm/firmware/a740_zap.mbn|d093fc67ffd7f8fdd4eed30d5900c408f6607415
+vendor/firmware/a740_zap.mdt
 vendor/firmware/a740_zap.mdt:odm/firmware/a740_zap.mdt|d3dd54d675ca2b31545e281c4c258e7885dc7954
+vendor/firmware/gmu_gen70200.bin
 
 # NFC
 vendor/etc/nfc/libnfc-nxp_RF.conf
 
-# RIL - from S911BXXS8DYF2
-vendor/etc/init/init.vendor.onebinary.rc|b3fab964774039b1f2f6eabf821556919b26369f
-
 # RIL
 vendor/bin/qms
+vendor/etc/init/init.vendor.onebinary.rc
 vendor/etc/init/init.vendor.rilcommon.rc
 vendor/etc/init/vendor.samsung.rilchip.qcom.rc
 vendor/etc/init/vendor.samsung.rild.rc
@@ -374,12 +371,12 @@ vendor/firmware/ois_mcu_stm32g_fw.bin
 vendor/firmware/vpu20_4v.mbn
 vendor/firmware/vpu20_4v_unsigned.mbn
 vendor/firmware/vpu30_4v.mbn
+vendor/firmware/vpu30_4v.mbn:odm/firmware/vpu30_4v.mbn|5f2edb21e3cbbe4a51273f5006c6838d717808c4
 vendor/firmware/vpu30_4v_16mb.mbn
 vendor/firmware/vpu30_4v_16mb_unsigned.mbn
 vendor/firmware/vpu30_4v_unsigned.mbn
 vendor/firmware/vpu33_4v.mbn
 vendor/firmware/vpu33_4v_unsigned.mbn
-vendor/firmware/vpu30_4v.mbn:odm/firmware/vpu30_4v.mbn|5f2edb21e3cbbe4a51273f5006c6838d717808c4
 
 # Wifi firmware
 vendor/firmware/Data.msc
